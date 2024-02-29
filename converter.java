@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.*;
 
 public class converter {
@@ -5,6 +6,8 @@ public class converter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String contS, output, wordToConvert;
+        wolourUI frame = new wolourUI();
+        SwingUtilities.invokeLater((Runnable) frame);
         boolean cont = true;
         while (cont){
             System.out.println("Input word to text");
